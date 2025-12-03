@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
 	
-	double x,y;
+/*	double x,y;
 	cout<<"Ingrese x y y en ese respectivo orden"<<endl;
 	cin>>x>>y;
 	
@@ -37,6 +37,34 @@ int main()
 	{
 		cout<<"El punto esta en el cuarto cuadrante";
 	}
+	*/
+	
+	int n;
+	cout<<"Ingresa un numero: ";
+	cin>>n;
+	
+	if(n>1)
+	{
+		if(n==2 or n==3 or n==5 or n==7)
+		{
+			cout<<"El numero es primo";
+		}
+		else if (n%2==0 or n%3==0 or n%5==0 or n%7==0)
+		{
+			cout<<"El numero no es primo";
+		}
+		else
+		{
+			cout<<"El numero es primo";
+		}
+	}
+	else
+	{
+		cout<<"El numero ingresado debe ser mayor que uno";
+	}
+	
+	
+	
 	
 	
 	return 0;
